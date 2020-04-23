@@ -1,7 +1,7 @@
 {
   "name": "johnd/paginator",
   "type": "library",
-  "description": "Paginate a collection or other iterable",
+  "description": "A service that creates a pagination control structure for a list of items",
   "keywords": ["paginate", "paginator"],
   "license": "MIT",
   "authors": [
