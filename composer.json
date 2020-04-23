@@ -1,0 +1,30 @@
+{
+  "name": "johnd/paginator",
+  "type": "library",
+  "description": "Paginate a collection or other iterable",
+  "keywords": ["paginate", "paginator"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "John Davison",
+      "email": "john01davison@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit" : "^8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Johnd\\Paginator\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": { "Johnd\\Paginator\\Tests\\": "tests/" }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
